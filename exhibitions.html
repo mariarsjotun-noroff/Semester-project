@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Community Science Museum — explore interactive exhibitions, events, and practical visitor information for families and schools." />
+  <title>Community Science Museum | Exhibitions </title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Community Science Museum Home">
+        <span class="brand-mark" aria-hidden="true">◆</span>
+        <span class="brand-text">
+          <span class="brand-name">Community</span>
+          <span class="brand-name">Science Museum</span>
+        </span>
+      </a>
+
+      <!-- Mobile nav toggle (CSS only) -->
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" />
+      <label class="nav-toggle-btn" for="nav-toggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="visit.html">Visit</a></li>
+            <li><a class="is-active" href="exhibitions.html">Exhibitions</a></li>
+            <li><a href="comingsoon.html">Events</a></li>
+            <li><a href="getinvolved.html">Get involved</a></li>
+            <li><a href="comingsoon.html">Contact</a></li>
+        </ul>
+
+        <a class="btn btn-primary nav-cta" href="visit.html">Plan your visit</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <main id="main">
+        <!-- HERO -->
+        <section class="ex-hero" aria-labelledby="ex-title">
+          <div class="container ex-hero__inner">
+            <div class="ex-hero__text">
+              <h1 id="ex-title">Exhibition Spaces</h1>
+              <p class="lead">
+                Five worlds to explore — from galaxies to AI. Discover what’s on right now and plan your visit.
+              </p>
+      
+              <div class="ex-hero__actions">
+                <a class="btn btn-primary" href="visit.html">Plan your visit</a>
+                <a class="btn btn-secondary" href="#ex-list">Browse exhibitions</a>
+              </div>
+            </div>
+      
+            <div class="ex-hero__media">
+              <!-- Bytt til ditt bilde -->
+              <img
+                src="images/exhibition-1863344_1920.jpg"
+                alt="Visitors exploring an interactive science exhibit"
+                width="720"
+                height="420"
+                loading="eager"
+              />
+            </div>
+          </div>
+        </section>
+      
+        <!-- QUICK NAV / CONTENTS -->
+        <section class="section section--tight" aria-label="Exhibitions navigation">
+          <div class="container">
+            <div class="ex-chips">
+              <a class="chip" href="#cosmology">Cosmology</a>
+              <a class="chip" href="#evolution">Evolution</a>
+              <a class="chip" href="#biology">Biology &amp; Medicine</a>
+              <a class="chip" href="#robotics">Robotics &amp; AI</a>
+              <a class="chip" href="#ecology">Ecology</a>
+              <a class="chip chip--ghost" href="#news">News</a>
+            </div>
+          </div>
+        </section>
+      
+        <!-- EXHIBITIONS LIST -->
+        <section class="section" id="ex-list" aria-labelledby="ex-list-title">
+          <div class="container">
+            <h2 id="ex-list-title" class="section-title">Explore the exhibitions</h2>
+            <p class="muted">Each space is designed to be interactive and family-friendly.</p>
+      
+            <div class="ex-grid">
+              <!-- Cosmology -->
+              <article class="ex-card" id="cosmology" aria-labelledby="cosmology-title">
+                <div class="ex-card__media">
+                  <img
+                    src="images/celso-405219.jpg"
+                    alt="A starry sky representing the cosmology exhibition"
+                    width="720"
+                    height="520"
+                    loading="lazy"
+                  />
+                </div>
+      
+                <div class="ex-card__content">
+                  <h3 id="cosmology-title">Cosmology</h3>
+                  <p>
+                    Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and
+                    what we can see and know about the universe around us. We’ll locate the various constellations and galaxies
+                    that can be seen and learn a bit about the early navigators who used the stars to travel by.
+                  </p>
+                  <p>
+                    Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the latest
+                    exploration of the planets in our solar system.
+                  </p>
+      
+                  <div class="ex-card__meta">
+                    <span class="badge">Interactive</span>
+                    <span class="badge">Family-friendly</span>
+                  </div>
+                </div>
+              </article>
+      
+              <!-- Evolution -->
+              <article class="ex-card" id="evolution" aria-labelledby="evolution-title">
+                <div class="ex-card__media">
+                  <img
+                    src="images/skeleton-414543_1920.jpg"
+                    alt="Skeletons representing evolution"
+                    width="720"
+                    height="520"
+                    loading="lazy"
+                  />
+                </div>
+      
+                <div class="ex-card__content">
+                  <h3 id="evolution-title">Evolution</h3>
+                  <p>
+                    For centuries, philosophers and scientists have wrestled with the question of our origins. Where do we come
+                    from and how did we get here? Since Darwin proposed his theory of evolution we have had a framework for
+                    exploring and understanding our place in this world.
+                  </p>
+                  <p>
+                    Discover the origins of life on this planet and how the species we know today have evolved our time. You can
+                    also take some time to meet a few of the creatures who didn’t survive, including our Woolly Mammoth, the
+                    Dodos, and a number of dinosaurs too.
+                  </p>
+      
+                  <div class="ex-card__meta">
+                    <span class="badge">Hands-on</span>
+                    <span class="badge">History of life</span>
+                  </div>
+                </div>
+              </article>
+      
+              <!-- Biology & Medicine -->
+              <article class="ex-card" id="biology" aria-labelledby="biology-title">
+                <div class="ex-card__media">
+                  <img
+                    src="images/people-219985_1280.jpg"
+                    alt="Microscope and lab equipment representing biology and medicine"
+                    width="720"
+                    height="520"
+                    loading="lazy"
+                  />
+                </div>
+      
+                <div class="ex-card__content">
+                  <h3 id="biology-title">Biology and Medicine</h3>
+                  <p>
+                    From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into
+                    the great wonders of the tiny world.
+                  </p>
+                  <p>
+                    For many people their life expectancy is much longer and their quality of life much improved, thanks to the
+                    growth of our understanding of medicine. Over a series of exhibits we explore the history of medicine and
+                    take a look at some major breakthroughs including the discovery of penicillin and the first heart transplant.
+                  </p>
+                  <p>
+                    Many of our great medicinal discoveries have come not only from the lab, but also from observing animals in
+                    the wild. Often our fellow creatures have beat us to it.
+                  </p>
+      
+                  <div class="ex-card__meta">
+                    <span class="badge">Lab-inspired</span>
+                    <span class="badge">Human body</span>
+                  </div>
+                </div>
+              </article>
+      
+              <!-- Robotics & AI -->
+              <article class="ex-card" id="robotics" aria-labelledby="robotics-title">
+                <div class="ex-card__media">
+                  <img
+                    src="images/andrew-ruiz-348421.jpg"
+                    alt="Guy sitting in a simulator representing robotics and AI"
+                    width="720"
+                    height="520"
+                    loading="lazy"
+                  />
+                </div>
+      
+                <div class="ex-card__content">
+                  <h3 id="robotics-title">Robotics and AI</h3>
+                  <p>
+                    The information revolution is here and robotics and artificial intelligence are the science of the future.
+                    From useful home applications of AI to industrial uses of robotics, the future is here. You can even say
+                    hello and shake the hand of Rob the Robot.
+                  </p>
+      
+                  <div class="ex-card__meta">
+                    <span class="badge">Future tech</span>
+                    <span class="badge">Try it</span>
+                  </div>
+                </div>
+              </article>
+      
+              <!-- Ecology -->
+              <article class="ex-card" id="ecology" aria-labelledby="ecology-title">
+                <div class="ex-card__media">
+                  <img
+                    src="images/genoa-956405_1920.jpg"
+                    alt="Nature scene with ants representing ecology"
+                    width="720"
+                    height="520"
+                    loading="lazy"
+                  />
+                </div>
+      
+                <div class="ex-card__content">
+                  <h3 id="ecology-title">Ecology</h3>
+                  <p>
+                    As we learn more and more of the impact humans are having on the planet, the more important it becomes that
+                    scientists explore how to create a sustainable future not just for humans but for the whole planet.
+                  </p>
+                  <p>
+                    In our ecology section of the museum, we unpack the dangers we currently face including global warming,
+                    extinction of species, and pollution. But we also focus on the positive ways we can all contribute to a
+                    brighter future.
+                  </p>
+      
+                  <div class="ex-card__meta">
+                    <span class="badge">Sustainability</span>
+                    <span class="badge">Our planet</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      
+        <!-- NEWS / SPECIAL EVENTS -->
+        <section class="section section--tint" id="news" aria-labelledby="news-title">
+          <div class="container">
+            <div class="section-header ex-news-header">
+              <div>
+                <h2 id="news-title" class="section-title">News</h2>
+                <p class="muted">Special events and exhibitions on loan.</p>
+              </div>
+              <a class="btn btn-secondary" href="comingsoon.html">View all events</a>
+            </div>
+      
+            <div class="ex-news-grid">
+              <article class="news-card">
+                <img
+                  src="images/scientific-2040795_1280.jpg"
+                  alt="Professor giving a talk"
+                  loading="lazy"
+                />
+                <div class="news-card__body">
+                  <h3>Visiting Professor of Aeronautics</h3>
+                  <p>
+                    It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will
+                    be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.
+                  </p>
+                </div>
+              </article>
+      
+              <article class="news-card">
+                <img
+                  src="images/roberto-nickson-396152.jpg"
+                  alt="Museum at night"
+                  loading="lazy"
+                />
+                <div class="news-card__body">
+                  <h3>Night in the Museum</h3>
+                  <p>
+                    Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science
+                    displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.
+                  </p>
+                </div>
+              </article>
+      
+              <article class="news-card">
+                <img
+                  src="images/william-bout-264826.jpg"
+                  alt="Energetica echipition installation"
+                  loading="lazy"
+                />
+                <div class="news-card__body">
+                  <h3>Energetica Exhibition on Loan</h3>
+                  <p>
+                    On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community
+                    Science Museum. It’s a series of installations that allow visitors to experience the power of the elements
+                    as we harness them.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      
+        <!-- CTA -->
+        <section class="section">
+          <div class="container cta-row">
+            <div>
+              <h2 class="section-title">Ready to visit?</h2>
+              <p class="muted">Check opening hours, location, accessibility, and guided tours.</p>
+            </div>
+            <a class="btn btn-primary" href="visit.html">Plan your visit</a>
+          </div>
+        </section>
+      </main>
+      
+
+     <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h2 class="footer-title">Community Science Museum</h2>
+        <p class="muted">Making science accessible to all.</p>
+      </div>
+
+      <nav aria-label="Footer links">
+        <h3 class="footer-head">Quick links</h3>
+        <ul class="footer-list">
+          <li><a href="visit.html">Visit</a></li>
+          <li><a href="exhibitions.html">Exhibitions</a></li>
+          <li><a href="comingsoon.html">Events</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="comingsoon.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <h3 class="footer-head">Opening hours</h3>
+        <ul class="footer-list">
+          <li>Mon: Closed</li>
+          <li>Tue–Thu: 10:00–16:00</li>
+          <li>Fri: 10:00–19:00</li>
+          <li>Sat: 09:00–16:00</li>
+          <li>Sun: 09:00–13:00</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="footer-head">Visit us</h3>
+        <p class="muted">
+            Science Steet. 1234
+            <br />
+            Science City, Norway 
+        </p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> Community Science Museum. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
