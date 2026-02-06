@@ -178,7 +178,12 @@
     color: white;
     box-shadow: 0 8px 18px rgba(31,106,225,0.18);
   }
-  .btn-primary:hover { filter: brightness(0.97); }
+.btn-primary:hover {
+  background: #fff;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  filter: none;
+}
   
   .btn-secondary {
     background: var(--color-surface);
